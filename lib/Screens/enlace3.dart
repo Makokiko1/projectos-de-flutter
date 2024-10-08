@@ -10,7 +10,7 @@ class enlace3 extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Ejemplo de Íconos'),
       ),
-      drawer: menulateral(), // Aquí se agrega el menú lateral
+      drawer: menulateral(), 
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, 

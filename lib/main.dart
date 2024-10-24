@@ -32,8 +32,8 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  int _selectedIndex = 0; // 0 = Grid Icon, 1 = Mention Icon
-  bool _showPosts = true; // Controla la visibilidad de las publicaciones
+  int _selectedIndex = 0; 
+  bool _showPosts = true; 
 
   // Lista de imágenes que se mostrarán en la cuadrícula
   final List<String> images = [
@@ -94,7 +94,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 18),
                           ),
-                          SizedBox(height: 4), // Espacio entre el número y la etiqueta
+                          SizedBox(height: 4),
                           Text(
                             'Followers',
                             textAlign: TextAlign.center,
@@ -102,7 +102,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ),
                         ],
                       ),
-                      SizedBox(width: 20), // Espacio entre los elementos
+                      SizedBox(width: 20), 
                       // Seguidos
                       Column(
                         children: [
@@ -111,7 +111,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             textAlign: TextAlign.center,
                             style: TextStyle(fontSize: 18),
                           ),
-                          SizedBox(height: 4), // Espacio entre el número y la etiqueta
+                          SizedBox(height: 4),
                           Text(
                             'Following',
                             textAlign: TextAlign.center,
@@ -123,35 +123,35 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   ),
                 ],
               ),
-              const SizedBox(height: 2), // Espacio vertical entre los nombres
+              const SizedBox(height: 2), 
               const Row(
                 children: [
                   Text('Roberto Alonso'),
                 ],
               ),
-              const SizedBox(height: 4), // Espacio entre el nombre y la descripción
+              const SizedBox(height: 4),
               const Row(
                 children: [
                   Text('Vamos no me jodas'),
                 ],
               ),
-              const SizedBox(height: 20), // Espacio entre la descripción y el botón
+              const SizedBox(height: 20), 
               // Botón "Editar perfil"
               TextButton(
                 onPressed: () {
                   // Acción del botón (vacío por ahora)
                 },
                 style: TextButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(77, 81, 81, 81), // Fondo del botón
-                  foregroundColor: Colors.black, // Color del texto (negro)
+                  backgroundColor: const Color.fromARGB(77, 81, 81, 81), 
+                  foregroundColor: Colors.black, 
                   padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
                 ),
                 child: const Text(
                   'Editar perfil',
-                  style: TextStyle(fontSize: 18), // Estilo del texto
+                  style: TextStyle(fontSize: 18), 
                 ),
               ),
-              const SizedBox(height: 20), // Espacio entre el botón y las imágenes
+              const SizedBox(height: 20), s
               // Fila de imágenes circulares (Historias)
               const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -161,8 +161,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       CircleAvatar(
                         radius: 30,
                       ),
-                      SizedBox(height: 8), // Espacio entre la imagen y el texto
-                      Text('Nueva'), // Texto debajo de la imagen
+                      SizedBox(height: 8),
+                      Text('Nueva'), 
                     ],
                   ),
                   Column(
@@ -171,8 +171,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         radius: 30,
                         backgroundImage: AssetImage('assets/images/deporte.jpg'),
                       ),
-                      SizedBox(height: 8), // Espacio entre la imagen y el texto
-                      Text('Deporte'), // Texto debajo de la imagen
+                      SizedBox(height: 8), 
+                      Text('Deporte'), 
                     ],
                   ),
                   Column(
@@ -181,8 +181,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         radius: 30,
                         backgroundImage: AssetImage('assets/images/Colegas.jpg'),
                       ),
-                      SizedBox(height: 8), // Espacio entre la imagen y el texto
-                      Text('Sabios'), // Texto debajo de la imagen
+                      SizedBox(height: 8), 
+                      Text('Sabios'), 
                     ],
                   ),
                   Column(
@@ -191,8 +191,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         radius: 30,
                         backgroundImage: AssetImage('assets/images/Vecinos.jpg'),
                       ),
-                      SizedBox(height: 8), // Espacio entre la imagen y el texto
-                      Text('Vecinos'), // Texto debajo de la imagen
+                      SizedBox(height: 8), 
+                      Text('Vecinos'),
                     ],
                   ),
                   Column(
@@ -201,17 +201,17 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         radius: 30,
                         backgroundImage: AssetImage('assets/images/yo.jpg'),
                       ),
-                      SizedBox(height: 8), // Espacio entre la imagen y el texto
-                      Text('Yo'), // Texto debajo de la imagen
+                      SizedBox(height: 8), 
+                      Text('Yo'), 
                     ],
                   ),
                 ],
               ),
-              const SizedBox(height: 20), // Espacio entre las historias y la línea gris
+              const SizedBox(height: 20), 
               // Línea gris debajo de las historias
               const Divider(
-                color: Colors.grey, // Color de la línea gris
-                thickness: 1.0, // Grosor de la línea
+                color: Colors.grey, 
+                thickness: 1.0, 
               ),
             ],
           ),
@@ -230,8 +230,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                     onPressed: () {
                       setState(() {
-                        _selectedIndex = 0; // Marcar cuadrícula como seleccionada
-                        _showPosts = true; // Mostrar publicaciones
+                        _selectedIndex = 0; 
+                        _showPosts = true; 
                       });
                     },
                   ),
@@ -255,8 +255,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     ),
                     onPressed: () {
                       setState(() {
-                        _selectedIndex = 1; // Marcar mención como seleccionada
-                        _showPosts = false; // Ocultar publicaciones
+                        _selectedIndex = 1;
+                        _showPosts = false; 
                       });
                     },
                   ),
@@ -273,14 +273,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
         // Cuadrícula de imágenes (controlando la visibilidad)
         Expanded(
-          child: _showPosts // Condicional para mostrar u ocultar
+          child: _showPosts 
               ? GridView.builder(
-                  padding: EdgeInsets.zero, // Eliminar cualquier padding
+                  padding: EdgeInsets.zero, 
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3, // 3 imágenes por fila
-                    crossAxisSpacing: 0, // Eliminar espacio entre las imágenes horizontalmente
-                    mainAxisSpacing: 0, // Eliminar espacio entre las imágenes verticalmente
-                    childAspectRatio: 1, // Relación de aspecto 1:1 para cuadrado
+                    crossAxisCount: 3, 
+                    crossAxisSpacing: 0, 
+                    mainAxisSpacing: 0, 
+                    childAspectRatio: 1, 
                   ),
                   itemCount: images.length,
                   itemBuilder: (context, index) {
@@ -290,7 +290,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     );
                   },
                 )
-              : Container(), // Contenedor vacío cuando _showPosts es false
+              : Container(), 
         ),
       ],
     );

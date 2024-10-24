@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.actividad1",
+  "applicationId": "com.example.interfazinstagram",
   "variantName": "release",
   "elements": [
     {

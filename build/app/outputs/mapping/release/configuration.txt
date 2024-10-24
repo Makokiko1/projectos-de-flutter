@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is C:\Users\Aaron\Downloads\projectos flutter\flutter_application_1\actividad1\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
+# The proguard configuration file for the following section is C:\Users\Aaron\Downloads\projectos flutter\interfazinstagram\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,7 +116,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from C:\Users\Aaron\Downloads\projectos flutter\flutter_application_1\actividad1\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
+# End of content from C:\Users\Aaron\Downloads\projectos flutter\interfazinstagram\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
 # The proguard configuration file for the following section is C:\Users\Aaron\Downloads\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
@@ -127,14 +127,14 @@
 -dontwarn android.**
 
 # End of content from C:\Users\Aaron\Downloads\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
-# The proguard configuration file for the following section is C:\Users\Aaron\Downloads\projectos flutter\flutter_application_1\actividad1\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\Aaron\Downloads\projectos flutter\interfazinstagram\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
--keep class com.example.actividad1.MainActivity { <init>(); }
+-keep class com.example.interfazinstagram.MainActivity { <init>(); }
 
-# End of content from C:\Users\Aaron\Downloads\projectos flutter\flutter_application_1\actividad1\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from C:\Users\Aaron\Downloads\projectos flutter\interfazinstagram\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 # The proguard configuration file for the following section is C:\Users\Aaron\.gradle\caches\transforms-3\a49cd171355a6a39687e69f028c8bcbc\transformed\fragment-1.7.1\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
@@ -383,7 +383,7 @@
   public *** apply(***);
 }
 # End of content from C:\Users\Aaron\.gradle\caches\transforms-3\6dde453803d512b3f23cc981e264e9e0\transformed\jetified-core-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Aaron\.gradle\caches\transforms-3\2c26ddf817d41a14de967d5fd8c3211f\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\Aaron\.gradle\caches\transforms-3\c36c8a96751754a8e3abe9d0e16093c7\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -403,7 +403,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\Aaron\.gradle\caches\transforms-3\2c26ddf817d41a14de967d5fd8c3211f\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from C:\Users\Aaron\.gradle\caches\transforms-3\c36c8a96751754a8e3abe9d0e16093c7\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 
 # End of content from <unknown>

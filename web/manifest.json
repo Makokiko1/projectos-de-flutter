@@ -1,6 +1,6 @@
 {
-    "name": "actividad1",
-    "short_name": "actividad1",
+    "name": "interfazinstagram",
+    "short_name": "interfazinstagram",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
